@@ -1,0 +1,115 @@
+.total{
+    width: 100%;
+    background-color: rgb(236, 235, 233);
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 10;
+    
+}
+header img{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: auto;
+    margin-left: 8%;
+}
+
+.cls1{
+    width: 100%;
+    height: 100px;
+    background-color: #0D3F4C;
+    position: relative;
+    
+}
+.cls1 img{
+    margin-top: 35px;
+    margin-left: 8%;
+}
+.cls1 p{
+    position: absolute;
+    top: 35px;
+    left: 10%;
+    color: white;
+
+}
+.cls1 button{
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top: 30px;
+    left: 83%;
+    font-weight: bold;
+    
+}
+.cls2{
+    width: 85%;
+    height: 100px;
+    margin-left: 7.5%;
+}
+.cls2 h2{
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-weight: bold;
+    color: rgb(1, 39, 1);
+}
+.col-2 h5{
+    margin-top: 10px;
+}
+.col-2 img{
+    margin-top: 30px;
+}
+#recommended{
+    margin-left: 3.5%;
+    margin-top: 30px;
+    color: green;
+    border-bottom: 2px solid green;
+    width: 8.5%;
+    
+}
+.cls3{
+    font-size: 30px;
+    margin-top: 30%;
+    margin-left: 10%;
+    font-weight: bold;
+    color: rgb(1, 39, 1);
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(13, 48, 13);
+    margin-top: 50%;
+}
+.row{
+    width: 60% ;
+}
+.row p{
+    margin-top: 30px;
+}
+.social h4{
+    color: white;
+    margin-left: 10%;
+    display: flex;
+    
+    
+}
+.social-icons{
+    margin-left: 10%;
+    font-size: 38px;
+    
+}
+.app-link{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-top: -4.5%;
+}
+.app-link img{
+    width: 200px;
+    height: auto;
+}
