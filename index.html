@@ -10,49 +10,97 @@
 </head>
 <body>
     <div class="total">
-        <header>
-            <nav class="h-100 navbar navbar-expand-lg bg-body-tertiary">
-                <img src="./images/logo.png" alt="">
 
+        <header class="header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <img src="./images/logo.png" alt="">
                 <div class="container-fluid">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 links">
                             <li class="nav-item">
-                                <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active fs-5" aria-current="page" href="#" >Gift</a>
+                                <a class="nav-link active" aria-current="page" href="#">Gift</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active fs-5" aria-current="page" href="#">Order</a>
+                                <a class="nav-link active" aria-current="page" href="#">Order</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active fs-5" aria-current="page" href="#">Pay</a>
+                                <a class="nav-link active" aria-current="page" href="#">Pay</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active fs-5" aria-current="page" href="#">Store</a>
+                                <a class="nav-link active" aria-current="page" href="#">Store</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active fs-5" aria-current="page" href="#">Corporate Gifting</a>
+                                <a class="nav-link active" aria-current="page" href="#">Corporate Gifting</a>
                             </li>
                         </ul>
-                        <form class="d-flex" role="search">
-                            <div>
-                            <!-- <i class="fa-brands fa-sistrix"></i> -->
-                            <input class="form-control me-2 rounded-5" style="width: 300px;height: 50px; margin-left: -100%;" type="search"  placeholder="Looking for something specific?" aria-label="Search"/>
-                            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-                        </form>
+                    
+                        <div class="search">
+                            <i class="fa-solid fa-magnifying-glass" style="color: #a0a0a0;"></i>
+                            <input class="search-box" type="text" placeholder="Looking for something specific?">
+                       </div>
+                        <img src="./images/account_thin.svg" alt="" class="header-img">
                     </div>
                 </div>
             </nav>
         </header>
+        
+
         <div class="cls1">
-            <img src="./images/sparkleboi.svg" alt="" width="30px" height="30px">
-            <p>Sign in to <span style="color: goldenrod;">Earn Stars</span> on every order</p>
-            <button>Know more</button>
+            <img src="./images/sparkleboi.svg" alt=""  class="cls1-img">
+            <p class="earn-star">Sign in to <span class="span-top">Earn Stars</span> on every order</p>
+            <button class="top-button">Know more</button>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" id="carousel1">
+                <img src="./images/dashboard_left_f2da3758a8.png" class="d-block" alt="...">
+                <h4>New this season</h4>
+                <p>Cozy up with new handcrafted beverages and protein treats </p>
+                <button class="buy-now">Buy Now</button>
+                </div>
+                <div class="carousel-item" id="carousel2">
+                <img src="./images/ASSET_b3b5c11632.png" class="d-block" alt="...">
+                <h6 class="tag2">Starbucks</h6>
+                <h4 class="tag2-h">Beverage Subscription</h4>
+                <p class="tag2-p">Starbuck Subscription is Back! Sip Your Favorites for Less. Tap for Details. T&C Apply.</p>
+                <button class="buy-now">Know More</button>
+                </div>
+                <div class="carousel-item" id="carousel3">
+                <img src="./images/banner_left_1_120932388c.png" class="d-block" alt="...">
+                <h4 class="tag2-h">Get Match Ready</h4>
+                <p class="tag2-p">The limited-edition Football Bearista<sup><small>TM</small></sup> Cup has arrived.</p>
+                <button class="buy-now">Know More</button>
+                </div>
+                <div class="carousel-item" id="carousel4">
+                <img src="./images/image_28_1_d21f74bf32.png" class="d-block " alt="...">
+                <h4 class="tag3-h">Back to campus</h4>
+                <p class="tag3-p">Stationery that gets you through the day.</p>
+                <button class="buy-now">Know More</button>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+                 <img src="./images/swiperbtnleft-ELPH6PUN.svg" alt="previous" class="carousel-control-l">
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+                 <img src="./images/swiperbtnright-ZPA5GCMU.svg" alt="next" class="carousel-control-r">
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
 
@@ -64,33 +112,46 @@
                 <div class="col-2"><img src="./images/Drinks.jpg" alt="" style="width: 120px;height: auto; border-radius: 50%;"><h5>Drinks</h5></div>
                 <div class="col-2"><img src="./images/Foodnew.jpg" alt="" style="width: 120px;height: auto; border-radius: 50%;"><h5>Food</h5></div>
                 <div class="col-2"><img src="./images/Merchandisenew.jpg" alt="" style="width: 120px;height: auto; border-radius: 50%;"><h5>Merch</h5></div>
-                <div class="col-2"><img src="./images/CoffeeAtHome.jpg" alt="" style="width: 120px;height: auto; border-radius: 50%;"><h5>At Home Coffee</h5></div>
+                <div class="col-2"><img src="./images/CoffeeAtHome.jpg" alt="" style="width: 120px;height: auto; border-radius: 50%;"><h5>Coffee At Home</h5></div>
             </div>
             <h5 id="recommended">Recommended</h5>
-        <div class="card mb-4 pb-5 ps-2 pt-2" style="max-width: 540px; background-color: whitesmoke;border: none;    margin-top: 3%;margin-left: 3%;">
-                <div class="row g-0">
+            <div class="card mb-4 pb-5 ps-2 pt-2" style="max-width: 540px; background-color: whitesmoke;border: none;    margin-top: 3%;margin-left: 3%;">
+                <div style="height: 140px;">
                     <div class="col-md-4">
-                        <img src="./images/100501.webp" class="img-fluid " alt="..." style="width: 120px;height: 120px;border-radius: 50%;">
+                        <img src="./images/100501.webp" class="img-fluid " alt="..." style="width: 100px;height: 100px;border-radius: 50%;">
                         <h5 style="margin-top: 15%;margin-left: 10%;">&#8377; 456.75</h5>
                     </div>
                     <div class="col-md-8">
-                        <div class="card-body" style="margin-left: -50px;">
-                            <img src="./images/veg.svg" alt="">
+                        <div class="card-body" id="recommended-card">
+                            <img src="./images/veg.svg" class="veg" alt="">
                             <h5 class="card-title">Java Chip Frappuccino</h5>
-                            <p class="card-text"><small class="text-body" style="color: gray;">TALL(354 ml).329kcal</small></p>
-                            <img src="./images/add-cart.svg" alt="" style="width: 35px;height: 35px;background-color: green; border-radius: 50%;padding: 10px;margin-left: 90%;margin-top: 10%;">
+                            <p class="recommended-small"><small>TALL(354 ml).329kcal</small></p>
+                            <img src="./images/add-cart.svg" alt="" class="cart">
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <p><span style="font-size: 30px; font-weight: bold;margin-left: 3%;">Learn more about the world of coffee!</span> <a href="" style="margin-left: 90%; text-decoration: none; color: green;font-weight: bold;">Discover More</a></p>
+            <div class="bottom-banner-head">
+                <p class="bottom-banner-head-main">Learn more about the world of coffee!</p><a href="" class="discover-more">Discover More</a>
             </div>
+            <div class="bottom-banner">
+                <input type="text" value="coffee culture" class="coffee-culture">
+                <h1 class="bottom-banner-text">Art & Science Of Coffee Brewing</h1>
+                <p class="bottom-banner-text-para">Master the perfect brew with Starbucks! Learn the art and science of coffee brewing.</p>
+                <button class="learn-more">Learn More</button>
+            
+            </div>
+        </div>
+        <div class="cls3">
+            <p>An average active adult requires 2,000 kcal energy per day,</p>
+            <p>however, calorie needs may vary.</p>
+            <p>Image for representation purpose only.</p>
+            <p>FSSAI Lic. No. 10015022003801</p>
         </div>
         <section class="footer">
             <img src="./images/logo.png" alt="" style="width: 100px;height: auto;margin-left: 10%;margin-top: 8%;">
-            <div class="text-center">
-                <div class="row " style="margin-left: 18%;margin-top: -5%;">
+            <div class="text-center" style="margin-left: 5%;">
+                <div class="row-last" style="margin-left: 18%;margin-top: -5%;">
                     <div class="col-3 text-light text-start"><h3>About Us</h3> 
                         <p>Our Heritage </p>
                         <p>Coffeehouse</p>
@@ -134,10 +195,25 @@
                 </div>
             </div>
             <div class="app-link">
-                <img src="./images/appstoreiOS.png" alt="">
-                <img src="./images/appstoreAndroid.png" alt="">
+                <a href="#"><img src="./images/appstoreiOS.png" alt=""></a>
+                <a href="#"><img src="./images/appstoreAndroid.png" alt="" style="margin-top: 20px;"></a>
 
             </div>
+            <div class="horizontal"></div>
+            <div class="footer-text">
+                
+                <p>Web Accessiblity</p> 
+                <p>|</p>
+                <p>Privacy Statement</p>
+                <p>|</p>
+                <p>Terms of Use</p>
+                <p>|</p>
+                <p>Contact Us</p>
+                <div class="rights">
+                    <p>&#169; 2026 Starbucks Coffee Company. All rights reserved</p>
+                </div>
+            </div>
+            
 
         </section>
     </div>

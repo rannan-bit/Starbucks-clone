@@ -1,13 +1,15 @@
+body{
+    padding-top: 100px;
+}
 .total{
     width: 100%;
-    background-color: rgb(236, 235, 233);
+    /* background-color: rgb(236, 235, 233); */
+    background-color: #D4E9E2;
 }
 header{
     width: 100%;
     height: 100px;
-    position: fixed;
-    z-index: 10;
-    
+    z-index: 10;  
 }
 header img{
     display: flex;
@@ -20,13 +22,28 @@ header img{
 .cls1{
     width: 100%;
     height: 100px;
-    background-color: #0D3F4C;
+    background-color: #1E3932;
     position: relative;
     
+    
 }
-.cls1 img{
-    margin-top: 35px;
-    margin-left: 8%;
+.buy-now{
+    height: 50px;
+    width:250px;
+    background-color: #00754A;
+    border: none;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    right: 2.5%;
+    top: 60%;
+    border-radius: 30px;
+}
+.cls1-img{
+    width: 30px;
+    position: absolute;
+    left: 8.3%;
+    top: 34px;
 }
 .cls1 p{
     position: absolute;
@@ -35,7 +52,10 @@ header img{
     color: white;
 
 }
-.cls1 button{
+.span-top{
+    color: #CBA258;
+}
+.top-button{
     width: 120px;
     height: 40px;
     border-radius: 20px;
@@ -72,23 +92,80 @@ header img{
     width: 8.5%;
     
 }
-.cls3{
-    font-size: 30px;
-    margin-top: 30%;
-    margin-left: 10%;
-    font-weight: bold;
-    color: rgb(1, 39, 1);
+#recomended-card{
+    position: relative;
+    
 }
+.veg{
+    width: 4%;
+    height: auto;
+    position: absolute;
+    left: 23%;
+    top: 10%;
+}
+.card-title{
+    position: absolute;
+    left: 23%;
+    top: 25%;
+}
+.recommended-small{
+    position: absolute;
+    color: gray;
+    left: 23%;
+    top: 35%;
+}
+.cart{
+    position: absolute;
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #00754A;
+    left: 89%;
+    top: 68%;
+}
+.bottom-banner-head{
+    position: absolute;
+    left: 10%;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.bottom-banner-head-main{
+    font-size: 30px;
+    font-weight: bold;
+    color: #1E3932;
+}
+.discover-more{
+    text-decoration: none;
+    color: #00754A;
+    display: flex;
+    align-items: center;
+}
+.cls3{
+    text-align: center;
+    margin-top: 55%;
+    margin-bottom: 5%;
+}
+.cls3 p{
+    line-height: 1.45;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 .footer{
     width: 100%;
     height: auto;
-    background-color: rgb(13, 48, 13);
-    margin-top: 50%;
+    background-color: #1E3932;
 }
-.row{
-    width: 60% ;
+.row-last{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
 }
-.row p{
+.row-last p{
     margin-top: 30px;
 }
 .social h4{
@@ -106,10 +183,256 @@ header img{
 .app-link{
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
-    margin-top: -4.5%;
+    margin-left: 25%;
+    margin-top: -4.8%;
 }
 .app-link img{
     width: 200px;
     height: auto;
 }
+.footer-text{
+    display: flex;
+    margin-left: 10%;
+    gap: 2%;
+    margin-top: 2%;
+
+}
+.footer-text p{
+    color: white;
+    
+}
+.horizontal{
+    height: 1px;
+    width: 80%;
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.rights{
+    margin-left: 33%;
+    font-size: 12px;
+}
+.carousel-item img{
+    width: 150px;
+}
+#carouselExampleIndicators{
+    width: 80%;
+    height: 350px;
+    margin: 30px auto;
+}
+.carousel-inner{
+    border-radius: 10px;
+}
+#carousel1{
+    background-image: url(./images/in_app_banner_bg_web_0e7f519352.png);
+    background-size: cover;
+    position: relative;
+
+}
+#carousel2{
+    background-image: url(./images/BG_WEB_2a0fc11514.png);
+    background-size: cover;
+}
+#carousel3{
+    background-image: url(./images/in_app_desktop_b04b6275b5.png);
+    background-size: cover;
+}
+#carousel4{
+    background-image: url(./images/Dot_and_Doodles_Web_background_2f6954120a.png);
+    background-size: cover;
+}
+
+
+.carousel-control-l{
+    position: absolute;
+    left:0;
+    top: 25%;
+    height: 30%;
+    width: auto;
+}
+.carousel-control-r{
+    position: absolute;
+    right: 0;
+    top: 25%;
+    height: 30%;
+    width: auto;
+}
+#carousel1 h4{
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 14%;
+}
+#carousel1 p{
+    font-weight: bold;
+    position: absolute;
+    left: 14%;
+    top: 45%;
+}
+.bottom-banner{
+    background-image: url(./images/ICW_Live_Event_Day5_41f11ca3d2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 94%;
+    height: 420px;
+    margin:5% auto;
+    border-radius: 15px;
+    position: relative;
+}
+.bottom-banner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+
+     background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.75) 0%,
+        rgba(0,0,0,0.45) 40%,
+        rgba(0,0,0,0.15) 70%,
+        rgba(0,0,0,0) 100%
+     );
+        transition: background 0.4s ease;
+
+
+
+}
+.bottom-banner:hover::before{
+    background: linear-gradient(
+        to top,
+        rgba(0,0,0,0.9) 0%,
+        rgba(0,0,0,0.65) 40%,
+        rgba(0,0,0,0.35) 70%,
+        rgba(0,0,0,0.15) 100%
+    );
+    
+}
+.coffee-culture{
+    width: 90px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    color: #00754A;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    left: 35px;
+    top: 10px;
+    border-radius: 5px;
+    background-color: #D4E9E2;
+}
+.bottom-banner-text{
+    color: white;
+    position: absolute;
+    left: 35px;
+    top: 55%;
+}
+.bottom-banner-text-para{
+    color: white;
+    position: absolute;
+    left: 35px;
+    top: 70%;
+}
+.learn-more{
+    position: absolute;
+    left: 35px;
+    bottom: 8%;
+    width: 250px;
+    border: none;
+    height: 38px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar{
+    height: 90px;
+    display: flex;    
+}
+.navbar-nav{
+    display: flex;
+    gap: 35px;
+}
+.nav-item a{
+    color: #1E3932;
+    font-weight: 500;
+    font-size: 18px;
+}
+.links{
+    font-weight: bold;
+    position: absolute;
+    left: 15%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 84%;
+}
+.search-box{
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    right: 15%;
+    border-radius: 30px;
+    padding: 10px 40px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    color: #A0A0A0;
+}
+.header-img{
+    position: absolute;
+    left: 81%;
+}
+.search i{
+    position: absolute;
+    font-size: 25px;
+    right: 313px;
+    z-index: 10;
+}
+.tag2-h{
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 14%;
+}
+.tag2-p{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 14%;
+    top: 45%;    
+}
+.tag2{
+    color: white;
+    position: absolute;
+    left: 14%;
+    top: 10%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.tag3-h{
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+    position: absolute;
+    top: 20%;
+    left: 14%;
+}
+.tag3-p{
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 14%;
+    top: 45%; 
+}
+.bottom-banner{
+    
+}
+
+
